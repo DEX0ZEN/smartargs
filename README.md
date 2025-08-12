@@ -16,7 +16,7 @@
 
 ### 1. Build SmartArgs
 ```bash
-git clone https://github.com/DEX0ZEN/smartargs.git
+git clone https://github.com/LazySeldi/smartargs.git
 cd smartargs
 mkdir build && cd build && cmake .. && make
 ```
