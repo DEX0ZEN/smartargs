@@ -63,8 +63,8 @@ int main(int argc, char *argv[]) {
 ### 3. Compile and Run
 ```bash
 gcc -o myapp myapp.c -L../build/lib -lsmartargs
-LD_LIBRARY_PATH=../build/lib ./myapp --help
-LD_LIBRARY_PATH=../build/lib ./myapp -v --input data.txt --threads 8 file1.txt file2.txt
+./myapp --help
+./myapp -v --input data.txt --threads 8 file1.txt file2.txt
 ```
 
 
