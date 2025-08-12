@@ -62,7 +62,7 @@ int main(int argc, char *argv[]) {
 
 ### 3. Compile and Run
 ```bash
-gcc -o myapp myapp.c -L../build/lib -lsmartargs
+gcc -o myapp myapp.c -lsmartargs
 ./myapp --help
 ./myapp -v --input data.txt --threads 8 file1.txt file2.txt
 ```
