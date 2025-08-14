@@ -25,7 +25,7 @@ To install it just do:
 sudo make install
 ```
 
-### 2. Write Your App (Just 3 Lines!)
+### 2. Write Your App
 
 Create `myapp.c`:
 ```c
